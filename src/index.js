@@ -61,7 +61,7 @@ export default {
 					return new Response(JSON.stringify(results), {
 						headers: {
 							'Content-Type': 'application/json',
-							'Access-Control-Allow-Origin': 'https://mac-store.pages.dev',
+							'Access-Control-Allow-Origin': '*',
 						},
 					});
 				} else if (request.method === 'GET') {
@@ -70,7 +70,7 @@ export default {
 					return new Response(JSON.stringify(results), {
 						headers: {
 							'Content-Type': 'application/json',
-							'Access-Control-Allow-Origin': 'https://mac-store.pages.dev',
+							'Access-Control-Allow-Origin': '*',
 						},
 					});
 				}
@@ -102,7 +102,7 @@ export default {
 						return new Response(JSON.stringify(results), {
 							headers: {
 								'Content-Type': 'application/json',
-								'Access-Control-Allow-Origin': 'https://mac-store.pages.dev',
+								'Access-Control-Allow-Origin': '*',
 							},
 						});
 					} else {
@@ -172,7 +172,7 @@ export default {
 					return new Response(JSON.stringify(results), {
 						headers: {
 							'Content-Type': 'application/json',
-							'Access-Control-Allow-Origin': 'https://mac-store.pages.dev',
+							'Access-Control-Allow-Origin': '*',
 						},
 					});
 				}
